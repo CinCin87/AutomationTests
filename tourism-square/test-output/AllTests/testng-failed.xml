@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AllTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LinkTests(failed)">
+    <classes>
+      <class name="To.Sq.LinkTests">
+        <methods>
+          <include name="nonSeiRegistratoTest"/>
+          <include name="haiDimenticatoLaPassworTest"/>
+        </methods>
+      </class> <!-- To.Sq.LinkTests -->
+    </classes>
+  </test> <!-- LinkTests(failed) -->
+</suite> <!-- Failed suite [AllTests] -->

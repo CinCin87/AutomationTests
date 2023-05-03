@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-21T16:13:40 CEST" name="AllTests" finished-at="2023-04-21T16:14:09 CEST" duration-ms="28985">
+    <groups>
+    </groups>
+    <test started-at="2023-04-21T16:13:40 CEST" name="LinkTests" finished-at="2023-04-21T16:13:51 CEST" duration-ms="10834">
+      <class name="To.Sq.LinkTests">
+        <test-method signature="haiDimenticatoLaPassworTest()[pri:0, instance:To.Sq.LinkTests@1aa7ecca]" started-at="2023-04-21T16:13:40 CEST" name="haiDimenticatoLaPassworTest" finished-at="2023-04-21T16:13:47 CEST" duration-ms="7007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- haiDimenticatoLaPassworTest -->
+        <test-method signature="nonSeiRegistratoTest()[pri:0, instance:To.Sq.LinkTests@1aa7ecca]" started-at="2023-04-21T16:13:47 CEST" name="nonSeiRegistratoTest" finished-at="2023-04-21T16:13:51 CEST" duration-ms="3794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nonSeiRegistratoTest -->
+      </class> <!-- To.Sq.LinkTests -->
+    </test> <!-- LinkTests -->
+    <test started-at="2023-04-21T16:13:51 CEST" name="LoginTests" finished-at="2023-04-21T16:14:00 CEST" duration-ms="9350">
+      <class name="To.Sq.LoginTests">
+        <test-method signature="facebookLoginTest()[pri:0, instance:To.Sq.LoginTests@4d5d943d]" started-at="2023-04-21T16:13:51 CEST" name="facebookLoginTest" finished-at="2023-04-21T16:13:55 CEST" duration-ms="4789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLoginTest -->
+        <test-method signature="loginTest()[pri:0, instance:To.Sq.LoginTests@4d5d943d]" started-at="2023-04-21T16:13:55 CEST" name="loginTest" finished-at="2023-04-21T16:14:00 CEST" duration-ms="4558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- To.Sq.LoginTests -->
+    </test> <!-- LoginTests -->
+    <test started-at="2023-04-21T16:14:00 CEST" name="NegativeTests" finished-at="2023-04-21T16:14:04 CEST" duration-ms="3843">
+      <class name="To.Sq.NegativeTests">
+        <test-method signature="incorrectEmailTest()[pri:0, instance:To.Sq.NegativeTests@7b2bbc3]" started-at="2023-04-21T16:14:00 CEST" name="incorrectEmailTest" finished-at="2023-04-21T16:14:04 CEST" duration-ms="3841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- incorrectEmailTest -->
+      </class> <!-- To.Sq.NegativeTests -->
+    </test> <!-- NegativeTests -->
+    <test started-at="2023-04-21T16:14:04 CEST" name="ViewingTests" finished-at="2023-04-21T16:14:09 CEST" duration-ms="4929">
+      <class name="To.Sq.ViewingTests">
+        <test-method signature="visualizzaElementiTest()[pri:0, instance:To.Sq.ViewingTests@235834f2]" started-at="2023-04-21T16:14:04 CEST" name="visualizzaElementiTest" finished-at="2023-04-21T16:14:09 CEST" duration-ms="4927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visualizzaElementiTest -->
+      </class> <!-- To.Sq.ViewingTests -->
+    </test> <!-- ViewingTests -->
+  </suite> <!-- AllTests -->
+</testng-results>

@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ProvaParametriXLinkTests" verbose="1">
+
+	<test name="haiDimenticatoLaPassworTest">
+		<parameter name="clickAccedi" value="accediButton" />
+		<parameter name="clickLink" value="cliccaQuiLink" />
+		<parameter name="expectedUrl" value="https://node33014-ibsenviroment.it1.eur.aruba.jenv-aruba.cloud/tourismWeb/#/password-recovery" />
+		<classes>
+			<class name="To.Sq.LinkTests">
+			</class>
+		</classes>
+	</test>
+
+	<test name="nonSeiRegistratoTest">
+
+		<parameter name="clickAccedi" value="accediButton" />
+		<parameter name="clickLink" value="registratiLink" />
+		<parameter name="expectedUrl" value="Your password is invalid!" />
+		<classes>
+			<class name="To.Sq.LinkTests">
+			</class>
+		</classes>
+	</test>
+
+</suite>

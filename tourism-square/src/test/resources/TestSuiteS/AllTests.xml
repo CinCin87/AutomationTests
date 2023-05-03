@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AllTests" verbose="1">
+	
+	<test name="LinkTests">
+		<classes>
+			<class name="To.Sq.LinkTests" />
+		</classes>
+	</test>
+
+	<test name="LoginTests">
+		<classes>
+			<class name="To.Sq.LoginTests" />
+		</classes>
+	</test>
+
+	<test name="NegativeTests">
+		<classes>
+			<class name="To.Sq.NegativeTests" />
+		</classes>
+	</test>
+
+
+	<test name="ViewingTests">
+		<classes>
+			<class name="To.Sq.ViewingTests" />
+		</classes>
+	</test>
+
+</suite>
+
